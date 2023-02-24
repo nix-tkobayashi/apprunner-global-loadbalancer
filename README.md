@@ -17,9 +17,11 @@ $ git clone https://github.com/nix-tkobayashi/apprunner-global-loadbalancer.git
 
 2. Set the backend configuration to nginx. 
 
+```bach
 $ cd apprunner-global-loadbalancer/apps
-\# Set up the "server" portion of the "upstream backend"
+# Set up the "server" portion of the "upstream backend"
 $ vi nginx.conf
+```
 
 
 3. deploy the AWS resource using Terraform.
