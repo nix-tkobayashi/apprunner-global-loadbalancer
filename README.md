@@ -15,7 +15,14 @@ Provides Terraform code for global load balancing of applications deployed with 
 $ git clone https://github.com/nix-tkobayashi/apprunner-global-loadbalancer.git
 ```
 
-2. deploy the AWS resource using Terraform.
+2. Set the backend configuration to nginx. 
+
+$ cd apprunner-global-loadbalancer/apps
+# Set up the "server" portion of the "upstream backend"
+$ vi nginx.conf
+
+
+3. deploy the AWS resource using Terraform.
 
 ```bash
 $ cd apprunner-global-loadbalancer/terraform
