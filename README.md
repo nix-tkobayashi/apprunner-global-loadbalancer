@@ -12,7 +12,7 @@ Provides Terraform code for global load balancing of applications deployed with 
 1. clone this repository.
 
 ```bash
-$ git clone https://github.com/nix-tkobayashi/apprunner-global-loadbalancer.git
+$ git clone git@github.com:nix-tkobayashi/apprunner-global-loadbalancer.git
 ```
 
 2. Set the backend configuration to nginx. 
